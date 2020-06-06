@@ -8,5 +8,6 @@ Traduccion de los colores al csv
  - Rojo ----> "---"
  - Marron ----> "--"
  - Negro ----> "-"
+ - Blanco ----> " "
  - Celeste ----> "+"
  - Verde ----> "++"
