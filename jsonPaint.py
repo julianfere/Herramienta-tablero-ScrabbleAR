@@ -133,7 +133,7 @@ sg.theme("MyNewTheme")
 colores =  open(os.path.join(absolute_path,"info","colores.json"),"r")
 col = json.load(colores)
 
-window_menu  = sg.Window("Dibujo",crear_menu())
+window_menu  = sg.Window("Main menu",crear_menu())
 while True:
     event, values = window_menu.read()
     if (event ==  None):
@@ -152,7 +152,7 @@ while True:
 
 
         layout,botones = crear_layout(col,dificultad)
-        window_2 = sg.Window("asd",layout)
+        window_2 = sg.Window("Board Maker",layout)
         tipos = ["-","--","---","+","++","+++","++++","blanco"]
         while True:
             event,  values =  window_2.read()
