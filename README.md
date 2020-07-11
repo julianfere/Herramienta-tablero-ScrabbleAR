@@ -1,8 +1,8 @@
 # Herramienta de tableros para ScrabbleAR
 Herramienta para el trabajo final de Python
 
->La herramienta (por ahora) permite pintar en una matriz de 15x15 con 6 colores distintos y los exporta a un csv que el trabajo final usa de tablero 
-contiene un .json donde se encuentran los codigos de color que usa cada ficha para que sea facil de actualizar con los del juego
+>La herramienta (por ahora) permite pintar en una matriz de 15x15 con 8 tipos de ficha distintos y los exporta a un .json que se puede usar de tablero 
+en ScrabbleAR contiene un .json donde se encuentran los codigos de color que usa cada ficha para que sea facil de actualizar con los del juego
 
 #### Instrucciones de uso
 - Al correr el programa salgra un popup donde tendremos que poner el nivel en el que vamos a hacer el tablero (facil, medio o dificil)
