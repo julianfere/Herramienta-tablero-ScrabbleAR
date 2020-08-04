@@ -154,6 +154,8 @@ while True:
         layout,botones = crear_layout(col,dificultad)
         window_2 = sg.Window("Board Maker",layout)
         tipos = ["-","--","---","+","++","+++","++++","blanco"]
+        ficha = " "
+        color = "white"
         while True:
             event,  values =  window_2.read()
             print(event)
@@ -163,6 +165,8 @@ while True:
                 color = col[dificultad][event] if event != "blanco" else col[dificultad][""]
                 ind = event
                 ficha = event if event != "blanco" else ""
+            else:
+                print("Esta aca")
             if event in botones.keys():
                 ind = event
                 window_2[ind].update(ficha,button_color=('black',color))
