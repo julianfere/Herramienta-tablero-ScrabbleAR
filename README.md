@@ -11,4 +11,22 @@ en ScrabbleAR contiene un .json donde se encuentran los codigos de color que usa
 - PysimpleGui
 - Python 3.8.3
 
+##### Limitaciones
+ Como el json del tablero tiene el siguiente formato
+ ```
+ {
+ (0,0) = ""
+ (0,1) = ""
+ ...
+ (0,n) = ""
+ (1,0) = ""
+ (1,1) = ""
+ ...
+ (1,n) = ""
+ ...
+ (n,n) = ""
+ }
+ ``` 
+ Los tableros solo se pueden hacer cuadrados
+
 
