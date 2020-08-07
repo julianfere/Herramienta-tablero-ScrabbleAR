@@ -1,3 +1,4 @@
+![Logo](https://github.com/andr-vg/TrabajoFinalPython/blob/master/scrabbleAR/lib/media/Logo.png?raw=true)
 # Herramienta de tableros para ScrabbleAR
 
 >La herramienta permite pintar en una matriz de NxN con 8 tipos de ficha distintos y los exporta a un .json que se puede usar de tablero 
