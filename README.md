@@ -29,6 +29,6 @@ en ScrabbleAR contiene un .json donde se encuentran los codigos de color que usa
  (n,n) = ""
  }
  ``` 
- Los tableros solo se pueden hacer cuadrados
+ Por conveniencia los tableros solo se pueden hacer cuadrados
 
 
