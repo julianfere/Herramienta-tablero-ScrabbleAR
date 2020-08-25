@@ -129,8 +129,9 @@ sg.LOOK_AND_FEEL_TABLE['MyNewTheme'] = {'BACKGROUND': '#c5dbf1',
                                     }
 
 sg.theme("MyNewTheme")
-
-colores =  open(os.path.join(absolute_path,"info","colores.json"),"r")
+print("PATH",absolute_path)
+# colores =  open(os.path.join(absolute_path,"Info","colores.json"),"w")
+colores =  open(os.path.join(absolute_path,"Info","colores.json"),"r")
 col = json.load(colores)
 
 window_menu  = sg.Window("Main menu",crear_menu())
